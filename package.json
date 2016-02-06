@@ -1,0 +1,39 @@
+{
+  "name": "ws-cli",
+  "version": "0.0.2",
+  "description": "Dead simple websocket cli",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/sohje/ws-cli.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Nikolay Spiridonov",
+    "email": "nikolay.spiridonov@gmail.com"
+  },
+  "bin": {
+    "ws": "cli.js"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "ws",
+    "websocket",
+    "cli",
+    "command",
+    "sent",
+    "websocket-cli",
+    "ws-cli",
+    "filesystem",
+    "data",
+    "cli-app"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "ws": "^1.0.1"
+  }
+}
