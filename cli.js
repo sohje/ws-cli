@@ -5,7 +5,7 @@ const WebSocket = require('ws');
 
 app.version('0.0.1')
     .usage('[options] message')
-    .description('Sent data over Ws.')
+    .description('Sent messages to WebSocket server using cli.')
     .option('-H, --host <string>', 'WebSocket server host address')
     .parse(process.argv);
 

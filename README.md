@@ -16,7 +16,7 @@ $ ws --help
 
   Usage: ws [options] message
 
-  Sent data over Ws.
+  Sent messages to WebSocket server using cli.
 
   Options:
 
