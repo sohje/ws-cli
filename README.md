@@ -1,4 +1,6 @@
 # ws-cli
+[![npm version](https://badge.fury.io/js/ws-cli.svg)](https://badge.fury.io/js/ws-cli)
+
 Dead simple WebSockets cli app.  
 Sent messages to Ws server using cli.
 
