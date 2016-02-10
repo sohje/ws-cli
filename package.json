@@ -1,6 +1,6 @@
 {
   "name": "ws-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dead simple websocket cli",
   "license": "MIT",
   "repository": {
@@ -20,6 +20,9 @@
   "files": [
     "cli.js"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "ws",
     "websocket",
@@ -35,5 +38,8 @@
   "dependencies": {
     "commander": "^2.9.0",
     "ws": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
